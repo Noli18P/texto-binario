@@ -29,7 +29,7 @@ def convertidor():
         'Z' : '01011010'
     }
 
-    mensaje = input('Ingresa el mensaje: ').upper()
+    mensaje = input('Ingresa el mensaje: ').upper().replace(' ', '')
     mensaje = list(mensaje)
 
     mensaje_cifrado = ''
