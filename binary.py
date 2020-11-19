@@ -49,7 +49,19 @@ def convertidor():
    
     return mensaje_cifrado
 
+
+def bienvenida():
+    mensaje_bienvenida = """
+    Bienvenido al convertidor de texto a código binario,
+    en el puedes usar números y letras (por ahora), solo 
+    debes introducir una palabra o una oración entera si
+    lo deseas. Disfrutalo!
+    """
+
+    print(mensaje_bienvenida)
+
 def main():
+    bienvenida()
     mensaje = convertidor()
     print(mensaje)
 
